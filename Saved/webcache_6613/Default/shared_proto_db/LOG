@@ -1,2 +1,3 @@
-2026/11/03-20:57:08.437 6dbc Creating DB C:\Games\unreal\GameJam\Saved\webcache_6613\Default\shared_proto_db since it was missing.
-2026/11/03-20:57:08.448 6dbc Reusing MANIFEST C:\Games\unreal\GameJam\Saved\webcache_6613\Default\shared_proto_db/MANIFEST-000001
+2026/11/03-21:49:40.226 5a60 Reusing MANIFEST C:\Games\unreal\GameJam\Saved\webcache_6613\Default\shared_proto_db/MANIFEST-000001
+2026/11/03-21:49:40.226 5a60 Recovering log #3
+2026/11/03-21:49:40.227 5a60 Reusing old log C:\Games\unreal\GameJam\Saved\webcache_6613\Default\shared_proto_db/000003.log 
