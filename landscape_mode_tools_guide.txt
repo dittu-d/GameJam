@@ -1,0 +1,176 @@
+UNREAL ENGINE 5 - LANDSCAPE MODE TOOLS (SIMPLE GUIDE)
+=====================================================
+
+How to open it:  press Shift+2  (or pick "Landscape" in the mode dropdown, top-left).
+Note: names and places can differ a little between Unreal versions.
+
+
+THE BASICS (REMEMBER THESE)
+---------------------------
+Left click + drag ........ do the tool's effect (usually RAISE)
+Shift + Left click ....... do the OPPOSITE (usually LOWER)
+Ctrl + Z ................. undo last stroke
+Ctrl + Y ................. redo
+Alt + J .................. top-down view (nice for circles)
+Alt + G .................. back to normal perspective view
+
+Landscape Mode has 3 tabs:
+  MANAGE = make the landscape, change its size
+  SCULPT = change the SHAPE (hills, holes, cliffs)
+  PAINT  = change the LOOK (rock, sand, grass textures)
+
+
+=====================================================
+BRUSH SETTINGS (SAME FOR MOST TOOLS)
+=====================================================
+Tool Strength ... how strong each stroke is. Low (0.1-0.3) = gentle. High = fast and rough.
+Brush Size ...... how wide the brush is. It is in centimetres: 1000 = 10 metres.
+Brush Falloff ... how soft the edge is. High = soft and smooth. Low = hard edge.
+Brush Type ...... shape of the brush:
+                  Circle    = normal round brush
+                  Alpha     = uses a picture (good for craters)
+                  Pattern   = repeats a picture
+                  Component = affects one whole square piece
+Falloff Type .... Smooth, Linear, Spherical, Tip = different edge curves.
+                  Smooth is the best one to start with.
+
+
+=====================================================
+TAB 1: MANAGE (SET UP THE LANDSCAPE)
+=====================================================
+
+NEW
+  Creates a new landscape. Set the size, then click Create.
+  Size guide (with scale 100): 8x8 components = 0.5 km, 16x16 = 1 km, 32x32 = 2 km.
+  You can also "Import from File" to start from a heightmap picture.
+
+SELECT
+  Pick landscape pieces (called components). Other tools use your selection.
+
+ADD
+  Adds new pieces next to your landscape. Use it to make the map bigger.
+
+DELETE
+  Removes pieces you selected. Use it to cut away parts you do not need.
+
+MOVE TO LEVEL
+  Moves selected pieces into another level. Only needed for big streaming worlds.
+
+CHANGE COMPONENT SIZE (RESIZE)
+  Changes the size or detail of the landscape pieces.
+
+EDIT SPLINES
+  Draws roads, paths or rivers that follow the ground.
+  Ctrl + Left click puts down points. The line joins them.
+
+
+=====================================================
+TAB 2: SCULPT (CHANGE THE SHAPE)
+=====================================================
+
+SCULPT (the main tool)
+  Raises the ground. Shift + click lowers it.
+  Use for: mountains, valleys, the crater bowl, trenches.
+  Tip: many light passes look better than one heavy stroke.
+
+ERASE (newer versions)
+  Removes your sculpt changes and puts the ground back to how it was.
+  Use for: undoing a mistake in one area.
+
+SMOOTH
+  Softens rough or sharp areas.
+  Use for: sharp peaks, jagged slopes, joining two shapes.
+  Tip: keep strength LOW (0.05-0.3) so it does not flatten everything.
+
+FLATTEN
+  Your first click picks a height. Dragging makes the ground match that height.
+  Use for: flat deserts, building spots, landing areas.
+
+RAMP
+  Click two points. Unreal draws a smooth slope between them.
+  Then click "Add Ramp".
+  Use for: paths up a cliff, terraces, roads on hills.
+  Settings: Width (how wide), Side Falloff (how soft the sides are).
+
+EROSION
+  Wears down steep areas and makes natural cracks and gullies.
+  Use for: mountain walls that look weathered, not hand-made.
+
+HYDRO EROSION
+  Pretends rain washes the ground and carves channels.
+  Use for: river beds, water-cut ravines.
+
+NOISE
+  Adds random small bumps and dips.
+  Use for: rough, rocky ground.
+  Settings: Noise Scale (small or big bumps), Noise Mode (Add, Sub or Both).
+
+RETOPOLOGIZE
+  Fixes stretched triangles on very steep slopes.
+  Use for: cliffs whose texture looks smeared.
+
+VISIBILITY
+  Hides part of the landscape to make a hole.
+  Use for: cave entrances. Needs a material set up for it.
+
+MASK / SELECTION
+  Paints a mask. Masked areas are protected from your other tools.
+  Use for: sculpting next to an area you want to keep safe.
+
+COPY / PASTE
+  Copies a piece of terrain and pastes it somewhere else.
+  Use for: repeating the same hill or crater shape.
+
+MIRROR
+  Copies one half of the landscape onto the other side.
+  Use for: symmetrical maps.
+
+
+=====================================================
+TAB 3: PAINT (CHANGE THE LOOK)
+=====================================================
+You need a landscape MATERIAL with layers first (for example rock, sand, gravel).
+Each layer needs a "Layer Info" asset. Then you paint with them.
+
+PAINT
+  Paints the chosen layer onto the ground.
+  Left click adds the layer. Shift + click removes it.
+  Use for: sand in the flats, rock on the walls.
+
+SMOOTH (paint)
+  Blends the edges between layers so they do not look sharp.
+
+FLATTEN (paint)
+  Evens out the layer strength in an area.
+
+NOISE (paint)
+  Mixes layers in a random, natural way.
+  Use for: rock slowly turning into sand.
+
+
+=====================================================
+WHICH TOOL FOR WHICH JOB? (QUICK TABLE)
+=====================================================
+Dig a crater bowl ............ Sculpt + Shift
+Build mountains .............. Sculpt (no Shift)
+Make steep, natural cliffs ... Smooth, then Erosion
+Flat desert floor ............ Flatten
+Deep trenches ................ Sculpt + Shift, small brush
+Rough rocky hills ............ Noise
+Path up a mountain ........... Ramp
+Water-cut gullies ............ Hydro Erosion
+Fix smeared cliff texture .... Retopologize
+Roads and paths .............. Edit Splines
+Make the map bigger .......... Add
+Cave hole .................... Visibility
+Paint sand and rock .......... Paint tab > Paint
+
+
+=====================================================
+GOOD HABITS
+=====================================================
+1. Set up the sun first. Shadows help you see the shapes.
+2. Use big brushes first (large shapes), small brushes last (details).
+3. Use low strength and many passes.
+4. Save often (Ctrl+S).
+5. Smooth lightly at the end to remove sharp spikes.
