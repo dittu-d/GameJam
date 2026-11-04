@@ -5,6 +5,9 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"D:/Git/GameJam/Content/TestZordl.umap",
+				"D:/Git/GameJam/Content/NewWorld.umap",
+				"D:/Git/GameJam/Content/TestWordl.umap",
 				"C:/Games/unreal/GameJam/Content/NewWorld.umap"
 			]
 		}
