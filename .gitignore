@@ -72,33 +72,3 @@ Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
-Content/Greyblock.umap
-Intermediate/CachedAssetRegistry_0.bin
-Saved/AutoScreenshot.png
-Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini
-Saved/Config/WorldState/2456097169.json
-Saved/Logs/cef3.log
-Saved/Logs/GameJam.log
-Saved/webcache_6613/Default/Cache/Cache_Data/data_0
-Saved/webcache_6613/Default/Cache/Cache_Data/data_1
-Saved/webcache_6613/Default/Cache/Cache_Data/data_2
-Saved/webcache_6613/Default/Cache/Cache_Data/data_3
-Saved/webcache_6613/Default/Code Cache/js/67aa9bc75473b65a_0
-Saved/webcache_6613/Default/Code Cache/js/7823730de6eceff3_0
-Saved/webcache_6613/Default/Code Cache/js/index-dir/the-real-index
-Saved/webcache_6613/Default/DIPS
-Saved/webcache_6613/Default/History
-Saved/webcache_6613/Default/Local Storage/leveldb/000003.log
-Saved/webcache_6613/Default/Local Storage/leveldb/LOG
-Saved/webcache_6613/Default/Network/Cookies
-Saved/webcache_6613/Default/Network/Network Persistent State
-Saved/webcache_6613/Default/Network/TransportSecurity
-Saved/webcache_6613/Default/Preferences
-Saved/webcache_6613/Default/Session Storage/000003.log
-Saved/webcache_6613/Default/Session Storage/LOG
-Saved/webcache_6613/Default/Site Characteristics Database/000006.log
-Saved/webcache_6613/Default/Site Characteristics Database/LOG
-Saved/webcache_6613/Default/Site Characteristics Database/LOG.old
-Saved/webcache_6613/first_party_sets.db
-Saved/webcache_6613/Local State
-Saved/webcache_6613/segmentation_platform/ukm_db
