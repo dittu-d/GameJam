@@ -1,2 +1,5 @@
-2026/11/03-20:57:04.316 5d10 Creating DB C:\Games\unreal\GameJam\Saved\webcache_6613\Default\Site Characteristics Database since it was missing.
-2026/11/03-20:57:04.338 5d10 Reusing MANIFEST C:\Games\unreal\GameJam\Saved\webcache_6613\Default\Site Characteristics Database/MANIFEST-000001
+2026/11/04-09:54:40.401 115c Log #3: 3 ops saved to Table #4 OK
+2026/11/04-09:54:40.401 115c Archiving D:\Dittu\GameJam\Saved\webcache_6613\Default\Site Characteristics Database/000003.log: OK
+2026/11/04-09:54:40.401 115c Table #4: 3 entries OK
+2026/11/04-09:54:40.402 115c Archiving D:\Dittu\GameJam\Saved\webcache_6613\Default\Site Characteristics Database/MANIFEST-000001: OK
+2026/11/04-09:54:40.532 115c **** Repaired leveldb D:\Dittu\GameJam\Saved\webcache_6613\Default\Site Characteristics Database; recovered 1 files; 207 bytes. Some data may have been lost. ****
